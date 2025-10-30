@@ -61,12 +61,19 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 ### **Project Structure**
 ```
 network-incident-monitoring/
-├── README.md
+├── assets/
+│   └── img/
 ├── notebook/
 │   ├── exploratory_data_analysis.ipynb
+│   ├── generate_synthetic_dataset_1.ipynb
+│   ├── generate_synthetic_dataset_2.ipynb
+│   ├── generate_synthetic_dataset_3.ipynb
 │   └── training_machine_learning_model.ipynb
 ├── semantic model/
 │   └── network_outage.yaml
+├── sql/
+│   ├── processing.sql
+│   └── setup.sql
 ├── streamlit/
 │   ├── app/
 │   │   └── network.py
@@ -83,14 +90,15 @@ network-incident-monitoring/
 │   └── utils/
 │       ├── data_prep.py
 │       └── dash_sup.py
-└── synthetic dataset/
-    ├── DIM_CITY.csv
-    ├── DIM_CLUSTER.csv
-    ├── DIM_OLT.csv
-    ├── FACT_CUSTOMER_FEEDBACK.parquet
-    ├── FACT_INCIDENT_TREND_SUMMARY.parquet
-    ├── FACT_NETWORK_CONTEXT_STATIC.parquet
-    └── FACT_TICKET_SUMMARY.parquet
+├── synthetic dataset/
+│   ├── DIM_CITY.csv
+│   ├── DIM_CLUSTER.csv
+│   ├── DIM_OLT.csv
+│   ├── FACT_CUSTOMER_FEEDBACK.parquet
+│   ├── FACT_INCIDENT_TREND_SUMMARY.parquet
+│   ├── FACT_NETWORK_CONTEXT_STATIC.parquet
+│   └── FACT_TICKET_SUMMARY.parquet
+└── README.md    
 ```
 
 ---
