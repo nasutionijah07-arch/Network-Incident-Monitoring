@@ -28,7 +28,8 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 | Component | Description |
 |------------|--------------|
-| **Snowpark Python** | Used for machine learning model training and data enrichment (e.g., mapping device IDs → location → customer). |
+| **Snowpark Python** (notebook) | Used for machine learning model training and data enrichment (e.g., mapping device IDs → location → customer). |
+| **Snowflake Database** | Central data repository for storing, managing, and accessing all network and incident data. |
 | **Streamlit** | Interactive web app for running predictions and visualizing real-time insights. |
 | **Tableau Dashboard** | Displays heatmaps of impacted regions, severity levels, and incident trends over time. |
 | **Cortex Analyst** | Enables data exploration and insight generation directly within Snowflake. |
