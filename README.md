@@ -49,7 +49,7 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 ### **Project Structure**
 ```
-Network-Incident-Monitoring/
+network-incident-monitoring/
 ├── README.md
 ├── notebook/
 │   ├── exploratory_data_analysis.ipynb
