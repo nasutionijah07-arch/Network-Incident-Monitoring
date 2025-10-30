@@ -40,6 +40,13 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 | **Custom Tools** | Automate notifications (e.g., send summary emails about incidents or Snowflake Intelligence chats). |
 | **Snowflake Intelligence (Chatbot)** | A natural language assistant that lets users query network insights in plain English, powered by Cortex Analyst and Search. |
 
+---
+
+### **Demo Video**
+
+📺 You can watch a demonstration of the network monitoring system in action here:  
+[Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
+
 
 ---
 
