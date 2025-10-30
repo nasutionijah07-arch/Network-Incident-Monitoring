@@ -1,0 +1,35 @@
+city_key,city,province,region
+1,Aceh,Aceh,Sumatra
+2,Bali,Bali,Bali & Nusa Tenggara
+3,Bangka Belitung,Bangka Belitung,Sumatra
+4,Banten,Banten,Java
+5,Bengkulu,Bengkulu,Sumatra
+6,Gorontalo,Gorontalo,Sulawesi
+7,Jakarta Raya,Jakarta Raya,Java
+8,Jambi,Jambi,Sumatra
+9,Jawa Barat,Jawa Barat,Java
+10,Jawa Tengah,Jawa Tengah,Java
+11,Jawa Timur,Jawa Timur,Java
+12,Kalimantan Barat,Kalimantan Barat,Kalimantan
+13,Kalimantan Selatan,Kalimantan Selatan,Kalimantan
+14,Kalimantan Tengah,Kalimantan Tengah,Kalimantan
+15,Kalimantan Timur,Kalimantan Timur,Kalimantan
+16,Kalimantan Utara,Kalimantan Utara,Kalimantan
+17,Kepulauan Riau,Kepulauan Riau,Sumatra
+18,Lampung,Lampung,Sumatra
+19,Maluku,Maluku,Maluku
+20,Maluku Utara,Maluku Utara,Maluku
+21,Nusa Tenggara Barat,Nusa Tenggara Barat,Bali & Nusa Tenggara
+22,Nusa Tenggara Timur,Nusa Tenggara Timur,Bali & Nusa Tenggara
+23,Papua,Papua,Papua
+24,Papua Barat,Papua Barat,Papua
+25,Riau,Riau,Sumatra
+26,Sulawesi Barat,Sulawesi Barat,Sulawesi
+27,Sulawesi Selatan,Sulawesi Selatan,Sulawesi
+28,Sulawesi Tengah,Sulawesi Tengah,Sulawesi
+29,Sulawesi Tenggara,Sulawesi Tenggara,Sulawesi
+30,Sulawesi Utara,Sulawesi Utara,Sulawesi
+31,Sumatera Barat,Sumatera Barat,Sumatra
+32,Sumatera Selatan,Sumatera Selatan,Sumatra
+33,Sumatera Utara,Sumatera Utara,Sumatra
+34,Yogyakarta,Yogyakarta,Java
