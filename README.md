@@ -26,6 +26,8 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 ### **Architecture & Key Components**
 
+![Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/Network-Incident-Monitoring/refs/heads/main/assets/img/architecture.png)
+
 | Component | Description |
 |------------|--------------|
 | **Snowpark Python** (notebook) | Used for machine learning model training and data enrichment (e.g., mapping device IDs → location → customer). |
@@ -37,6 +39,7 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 | **Agents** | Handle process orchestration and workflow automation. |
 | **Custom Tools** | Automate notifications (e.g., send summary emails about incidents or Snowflake Intelligence chats). |
 | **Snowflake Intelligence (Chatbot)** | A natural language assistant that lets users query network insights in plain English, powered by Cortex Analyst and Search. |
+
 
 ---
 
