@@ -75,7 +75,10 @@ Network-Incident-Monitoring/
 └── synthetic dataset/
     ├── DIM_CITY.csv
     ├── DIM_CLUSTER.csv
-    ├── FACT_NETWORK_REALTIME_STATUS.parquet
+    ├── DIM_OLT.csv
+    ├── FACT_CUSTOMER_FEEDBACK.parquet
+    ├── FACT_INCIDENT_TREND_SUMMARY.parquet
+    ├── FACT_NETWORK_CONTEXT_STATIC.parquet
     └── FACT_TICKET_SUMMARY.parquet
 ```
 
