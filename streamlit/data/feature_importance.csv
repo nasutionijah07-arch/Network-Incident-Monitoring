@@ -1,0 +1,16 @@
+feature,importance_mean
+trap_trend_score,0.37648
+temperature_avg_c,0.261054
+offline_ont_ratio,0.198694
+offline_ont_now_log_roll6h_mean,0.104564
+offline_ont_now_log_roll24h_mean,0.016587
+offline_ont_now_log_delta_1h,0.005846
+rx_power_avg_dbm,0.001783
+high_temp_count_log_roll24h_mean,0.001719
+bad_rsl_count_log_roll24h_mean,0.001597
+hour_cos,0.000983
+link_loss_count_log_delta_1h,0.000729
+snr_avg,0.000569
+bad_rsl_count_log_roll6h_mean,0.000555
+fault_rate,0.000527
+link_loss_count_log_roll24h_mean,0.000522
