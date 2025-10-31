@@ -133,6 +133,8 @@ You can access and download all sample datasets from the following link:
 
 ![Snowflake Intelligence](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/snowflake_intelligence_screenshot.png)
 
+![Snowflake Intelligence Root Cause](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/root-cause.png)
+
 ![Dashboard Tableau 1](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/tableau-ont-summary.png)
 
 ![Dashboard Tableau 2](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/tableau-ont%20-detail.png)
