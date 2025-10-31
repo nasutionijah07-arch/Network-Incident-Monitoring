@@ -1,5 +1,24 @@
 # 🌐 Network Incident Prediction & Monitoring Dashboard
 
+## 📑 Table of Contents
+1. [Overview](#overview)
+2. [Project Structure](#project-structure)
+3. [Objective](#objective)
+4. [Background](#background)
+5. [Architecture & Key Components](#architecture--key-components)
+6. [Dashboard Tableau](#dashboard-tableau)
+7. [Synthetic Dataset](#synthetic-dataset)
+8. [Result](#result)
+9. [Demo Video](#demo-video)
+10. [Business Value](#business-value)
+11. [How to Install & Run](#how-to-install--run)
+    - [1. Set Up in Snowflake](#1-set-up-in-snowflake)
+    - [2. Run the Machine Learning Notebooks](#2-run-the-machine-learning-notebooks)
+    - [3. Launch the Streamlit App](#3-launch-the-streamlit-app)
+    - [4. Connect Tableau](#4-connect-tableau)
+
+---
+
 ### **Overview**
 The **Network Incident Prediction & Monitoring Dashboard** is a Snowflake-based analytics and monitoring platform designed to **proactively identify and visualize network incidents** across regions and customers.  
 It combines real-time network data, machine learning insights, and interactive dashboards — empowering the Network Operations Center (NOC) to respond faster and minimize customer impact.
