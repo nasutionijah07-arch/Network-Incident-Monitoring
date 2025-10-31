@@ -16,6 +16,7 @@
     - [2. Run the Machine Learning Notebooks](#2-run-the-machine-learning-notebooks)
     - [3. Launch the Streamlit App](#3-launch-the-streamlit-app)
     - [4. Connect Tableau](#4-connect-tableau)
+12. [Google Slides Presentation](#google-slides-presentation)
 
 ---
 
@@ -189,4 +190,10 @@ The app will open in your browser, allowing you to:
 #### **4. Connect Tableau**
 - Use Tableau to connect to your Snowflake data source.
 - Import the provided **semantic model** to build or extend dashboards.
-  
+
+---
+
+### **Google Slides Presentation**
+
+[🌟 Google Slides Link](https://docs.google.com/presentation/d/1PwGnDE_B6p2iuZH9-QKsOZ4Ncfq5A1rl/edit?usp=sharing&ouid=111178249732581842636&rtpof=true&sd=true)
+
