@@ -94,6 +94,15 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 ---
 
+### **Synthetic Dataset**
+
+Due to large file sizes, the **full synthetic dataset** is hosted externally.
+You can access and download all sample datasets from the following link:
+
+[📦 Full Synthetic Dataset (Google Drive)](https://drive.google.com/drive/folders/1SlA7YD3CI4N7q5coH8RrzcuVuc2CXAxF?usp=sharing)
+
+---
+
 ### **Result**
 
 ![Streamlit Output](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/streamlit-screenshot-1.png)
@@ -110,7 +119,7 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 📺 You can watch a demonstration of the network monitoring system in action here:  
 [Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
 
-Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, which can be found here:
+Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, which can be found here:  
 [Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
 
 
@@ -121,15 +130,6 @@ Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, whi
 ✅ **Faster Incident Response** — Early detection and prediction reduce downtime and customer impact.  
 ✅ **Data-Driven Operations** — Unified insights for operational decisions and performance tracking.  
 ✅ **Scalable Architecture** — Built on Snowflake for seamless integration and performance across large datasets.
-
----
-
-### **Synthetic Dataset**
-
-Due to large file sizes, the **full synthetic dataset** is hosted externally.
-You can access and download all sample datasets from the following link:
-
-[📦 Full Synthetic Dataset (Google Drive)](https://drive.google.com/drive/folders/1SlA7YD3CI4N7q5coH8RrzcuVuc2CXAxF?usp=sharing)
 
 ---
 
@@ -162,10 +162,3 @@ The app will open in your browser, allowing you to:
 - Use Tableau to connect to your Snowflake data source.
 - Import the provided **semantic model** to build or extend dashboards.
   
----
-
-### **Example Insights**
-- Heatmap of impacted regions by severity level  
-- Top 5 devices causing recurring outages  
-- Predicted outage probability by region  
-- Real-time ticket volume and resolution trend  
