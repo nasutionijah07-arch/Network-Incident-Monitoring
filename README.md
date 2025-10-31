@@ -91,9 +91,9 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 ### **Architecture & Key Components**
 
-![Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/Network-Incident-Monitoring/refs/heads/main/assets/img/architecture.png)
-
 ![Detail Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/architecture-2.png)
+
+![Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/Network-Incident-Monitoring/refs/heads/main/assets/img/architecture.png)
 
 | Component | Description |
 |------------|--------------|
