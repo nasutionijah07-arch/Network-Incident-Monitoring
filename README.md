@@ -1,6 +1,6 @@
 # 🌐 Network Incident Prediction & Monitoring Dashboard
 
-## 📑 Table of Contents
+### Table of Contents
 1. [Overview](#overview)
 2. [Project Structure](#project-structure)
 3. [Objective](#objective)
