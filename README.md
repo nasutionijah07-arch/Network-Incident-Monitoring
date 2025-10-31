@@ -124,12 +124,13 @@ You can access and download all sample datasets from the following link:
 
 ### **Result**
 
-![Streamlit Output](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/streamlit-screenshot-1.png)
+![Streamlit Output](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/streamlit-screenshot-1.png)
 
-![Streamlit Output 2](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/streamlit-screenshot-2.png)
+![Streamlit Output 2](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/streamlit-screenshot-2.png)
 
-![Confusion Matrix](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/confusion-matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/confusion-matrix.png)
 
+![Snowflake Intelligence](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/snowflake_intelligence_screenshot.png)
 
 ---
 
