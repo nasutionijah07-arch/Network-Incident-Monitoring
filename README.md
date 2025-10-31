@@ -170,11 +170,11 @@ Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, whi
 1. Create or use an existing **Snowflake account**.  
 2. Load the provided synthetic datasets (`.csv` and `.parquet` files) into Snowflake tables.  
 3. Deploy the **semantic model (`network_outage.yaml`)** to define relationships between datasets.  
-4. Enable **Snowpark Python** and **Cortex features** in your Snowflake account.
+4. Enable **Snowflake Notebook**, **Cortex features (Cortex Analyst, Cortex Search)**, **Custom Tools**, **Agent**, and **Snowflake Intelligence** in your Snowflake account.
 
 #### **2. Run the Machine Learning Notebooks**
-- Open the `notebook/` folder.
-- Run `exploratory_data_analysis.ipynb` to explore data.
+- Open the `notebook/` folder.  
+- Run `exploratory_data_analysis.ipynb` to explore the data.  
 - Run `training_machine_learning_model.ipynb` to train and test the incident prediction model.
 
 #### **3. Launch the Streamlit App**
@@ -184,6 +184,7 @@ conda env create -f environment.yml
 conda activate network-monitoring
 streamlit run streamlit_app.py
 ```
+
 The app will open in your browser, allowing you to:
 - Input or simulate new data
 - Run predictions
@@ -191,7 +192,6 @@ The app will open in your browser, allowing you to:
 
 #### **4. Connect Tableau**
 - Use Tableau to connect to your Snowflake data source.
-- Import the provided **semantic model** to build or extend dashboards.
 
 ---
 
