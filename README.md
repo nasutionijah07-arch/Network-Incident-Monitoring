@@ -109,7 +109,7 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 ---
 
 ### **Dashboard Tableau** 
-[Google Drive Link](https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing)
+[📦 Google Drive Link](https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing)
 
 ---
 
@@ -140,7 +140,7 @@ You can access and download all sample datasets from the following link:
 [Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
 
 Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, which can be found here:  
-[Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
+[📦 Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
 
 
 ---
