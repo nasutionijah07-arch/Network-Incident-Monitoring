@@ -170,7 +170,7 @@ Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, whi
 1. Create or use an existing **Snowflake account**.  
 2. Load the provided synthetic datasets (`.csv` and `.parquet` files) into Snowflake tables.  
 3. Deploy the **semantic model (`network_outage.yaml`)** to define relationships between datasets.  
-4. Enable **Snowflake Notebook**, **Cortex features (Cortex Analyst, Cortex Search)**, **Custom Tools**, **Agent**, and **Snowflake Intelligence** in your Snowflake account.
+4. Enable **Snowflake Notebook**, **Streamlit**, **Cortex features (Cortex Analyst, Cortex Search)**, **Custom Tools**, **Agent**, and **Snowflake Intelligence** in your Snowflake account.
 
 #### **2. Run the Machine Learning Notebooks**
 - Open the `notebook/` folder.  
