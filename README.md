@@ -141,7 +141,7 @@ The app will open in your browser, allowing you to:
 - Use Tableau to connect to your Snowflake data source.
 - Import the provided **semantic model** to build or extend dashboards.
   
-dashboard tableau: https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing
+#### Dashboard Tableau: https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing
 ---
 
 ### **Example Insights**
