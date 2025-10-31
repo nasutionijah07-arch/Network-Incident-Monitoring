@@ -42,6 +42,11 @@ This project addresses that gap by unifying data sources into Snowflake, enrichi
 
 ---
 
+### **Dashboard Tableau** 
+[Google Drive Link](https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing)
+
+---
+
 ### **Demo Video**
 
 📺 You can watch a demonstration of the network monitoring system in action here:  
@@ -141,7 +146,6 @@ The app will open in your browser, allowing you to:
 - Use Tableau to connect to your Snowflake data source.
 - Import the provided **semantic model** to build or extend dashboards.
   
-#### Dashboard Tableau: https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing
 ---
 
 ### **Example Insights**
