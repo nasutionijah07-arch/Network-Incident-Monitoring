@@ -72,7 +72,7 @@ network-incident-monitoring/
 ---
 
 ### **Objective**
-To build an **integrated monitoring and prediction system** that enables IF**T*’s NOC team to:
+To build an **integrated monitoring and prediction system** that enables the Network Provider’s NOC team to:
 - Monitor network health and incidents in real time  
 - Predict potential outages using machine learning  
 - Instantly visualize which **regions or customers** are affected  
@@ -80,7 +80,7 @@ To build an **integrated monitoring and prediction system** that enables IF**T*�
 ---
 
 ### **Background**
-Currently, iF*rt* receives network incident data from various devices through **SNMP traps**, which flow into the ticketing system.  
+Currently, Network Provider receives network incident data from various devices through **SNMP traps**, which flow into the ticketing system.  
 However, this data is often **fragmented and difficult to interpret**, making it hard to understand:
 - The **overall scale** of disruptions  
 - Which **customers or regions** are most affected  
