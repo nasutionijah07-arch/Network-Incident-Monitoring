@@ -6,63 +6,6 @@ It combines real-time network data, machine learning insights, and interactive d
 
 ---
 
-### **Objective**
-To build an **integrated monitoring and prediction system** that enables IF**T*’s NOC team to:
-- Monitor network health and incidents in real time  
-- Predict potential outages using machine learning  
-- Instantly visualize which **regions or customers** are affected  
-
----
-
-### **Background**
-Currently, iF*rt* receives network incident data from various devices through **SNMP traps**, which flow into the ticketing system.  
-However, this data is often **fragmented and difficult to interpret**, making it hard to understand:
-- The **overall scale** of disruptions  
-- Which **customers or regions** are most affected  
-
-This project addresses that gap by unifying data sources into Snowflake, enriching them with ML predictions, and presenting clear insights through visual dashboards.
-
----
-
-### **Architecture & Key Components**
-
-![Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/Network-Incident-Monitoring/refs/heads/main/assets/img/architecture.png)
-
-| Component | Description |
-|------------|--------------|
-| **Snowpark Python** (notebook) | Used for machine learning model training and data enrichment (e.g., mapping device IDs → location → customer). |
-| **Snowflake Database** | Central data repository for storing, managing, and accessing all network and incident data. |
-| **Streamlit** | Interactive web app for running predictions and visualizing real-time insights. |
-| **Tableau Dashboard** | Displays heatmaps of impacted regions, severity levels, and incident trends over time. |
-| **Cortex Analyst** | Enables data exploration and insight generation directly within Snowflake. |
-| **Cortex Search** | Allows users to search through NOC operator transcripts and understand ongoing network conditions. |
-| **Agents** | Handle process orchestration and workflow automation. |
-| **Custom Tools** | Automate notifications (e.g., send summary emails about incidents or Snowflake Intelligence chats). |
-| **Snowflake Intelligence (Chatbot)** | A natural language assistant that lets users query network insights in plain English, powered by Cortex Analyst and Search. |
-
----
-
-### **Dashboard Tableau** 
-[Google Drive Link](https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing)
-
----
-
-### **Demo Video**
-
-📺 You can watch a demonstration of the network monitoring system in action here:  
-[Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
-
-
----
-
-### **Business Value**
-✅ **Real-Time Situational Awareness** — The NOC team can instantly view affected areas without waiting for manual updates.  
-✅ **Faster Incident Response** — Early detection and prediction reduce downtime and customer impact.  
-✅ **Data-Driven Operations** — Unified insights for operational decisions and performance tracking.  
-✅ **Scalable Architecture** — Built on Snowflake for seamless integration and performance across large datasets.
-
----
-
 ### **Project Structure**
 ```
 network-incident-monitoring/
@@ -105,6 +48,79 @@ network-incident-monitoring/
 │   └── FACT_TICKET_SUMMARY.parquet
 └── README.md    
 ```
+
+---
+
+### **Objective**
+To build an **integrated monitoring and prediction system** that enables IF**T*’s NOC team to:
+- Monitor network health and incidents in real time  
+- Predict potential outages using machine learning  
+- Instantly visualize which **regions or customers** are affected  
+
+---
+
+### **Background**
+Currently, iF*rt* receives network incident data from various devices through **SNMP traps**, which flow into the ticketing system.  
+However, this data is often **fragmented and difficult to interpret**, making it hard to understand:
+- The **overall scale** of disruptions  
+- Which **customers or regions** are most affected  
+
+This project addresses that gap by unifying data sources into Snowflake, enriching them with ML predictions, and presenting clear insights through visual dashboards.
+
+---
+
+### **Architecture & Key Components**
+
+![Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/Network-Incident-Monitoring/refs/heads/main/assets/img/architecture.png)
+
+![Detail Architecture](https://raw.githubusercontent.com/nasutionijah07-arch/network-incident-monitoring/refs/heads/main/assets/img/architecture-2.png)
+
+| Component | Description |
+|------------|--------------|
+| **Snowpark Python** (notebook) | Used for machine learning model training and data enrichment (e.g., mapping device IDs → location → customer). |
+| **Snowflake Database** | Central data repository for storing, managing, and accessing all network and incident data. |
+| **Streamlit** | Interactive web app for running predictions and visualizing real-time insights. |
+| **Tableau Dashboard** | Displays heatmaps of impacted regions, severity levels, and incident trends over time. |
+| **Cortex Analyst** | Enables data exploration and insight generation directly within Snowflake. |
+| **Cortex Search** | Allows users to search through NOC operator transcripts and understand ongoing network conditions. |
+| **Agents** | Handle process orchestration and workflow automation. |
+| **Custom Tools** | Automate notifications (e.g., send summary emails about incidents or Snowflake Intelligence chats). |
+| **Snowflake Intelligence (Chatbot)** | A natural language assistant that lets users query network insights in plain English, powered by Cortex Analyst and Search. |
+
+---
+
+### **Dashboard Tableau** 
+[Google Drive Link](https://drive.google.com/drive/folders/1QWD-cRVoxHhzX5J3y2JZZEj6w1s14Q5P?usp=sharing)
+
+---
+
+### **Result**
+
+![Streamlit Output](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/streamlit-screenshot-1.png)
+
+![Streamlit Output 2](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/streamlit-screenshot-2.png)
+
+![Confusion Matrix](https://github.com/nasutionijah07-arch/network-incident-monitoring/blob/main/assets/img/confusion-matrix.png)
+
+
+---
+
+### **Demo Video**
+
+📺 You can watch a demonstration of the network monitoring system in action here:  
+[Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
+
+Also, the chatbot (Snowflake Intelligence) outputs chat transcripts as PDFs, which can be found here:
+[Google Drive Link](https://drive.google.com/drive/folders/1rZ56El_KqoH1JA9JlH7wK3MneIgAgmNi?usp=sharing)
+
+
+---
+
+### **Business Value**
+✅ **Real-Time Situational Awareness** — The NOC team can instantly view affected areas without waiting for manual updates.  
+✅ **Faster Incident Response** — Early detection and prediction reduce downtime and customer impact.  
+✅ **Data-Driven Operations** — Unified insights for operational decisions and performance tracking.  
+✅ **Scalable Architecture** — Built on Snowflake for seamless integration and performance across large datasets.
 
 ---
 
